@@ -1,9 +1,13 @@
 import './App.css';
 import ResponsiveAppBar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
   return (
-    <ResponsiveAppBar />
+    <div className='UnicornApp'>
+        <ResponsiveAppBar />
+        <Home />
+    </div>
   );
 }
 
