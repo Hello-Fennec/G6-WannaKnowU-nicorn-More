@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body {
+    font-family: 'Fredoka One', cursive;
+}
+
+ul {
+    padding: 1em;
+}
+
+a li {
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    color:  rgb(58, 170, 92);
+    opacity: 1;
+}
+a li:hover {
+    transition: 1s  ;
+    opacity: 0.5;
+}
+
+.unicorn-circle{
+        height: 150px;
+        width: 150px;
+        background-color: rgb(255, 170, 244);
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        margin-left: -70px;
+        opacity: 1 !important; 
+}

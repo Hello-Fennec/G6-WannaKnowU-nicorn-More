@@ -1,12 +1,12 @@
 import './App.css';
 import ResponsiveAppBar from './components/Navbar';
-import BoxSx from './components/Box';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className='UnicornApp'>
         <ResponsiveAppBar />
-        <BoxSx />
+        <Home />
     </div>
   );
 }
