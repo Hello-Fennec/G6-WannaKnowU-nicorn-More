@@ -10,7 +10,8 @@ ul {
 a li {
     font-size: 32px;
     letter-spacing: 0.1em;
-    color:  rgb(58, 170, 92);
+    color:rgb(58, 170, 92);
+    text-shadow:  2px 2px rgb(74, 247, 109);
     opacity: 1;
 }
 a li:hover {
