@@ -3,3 +3,7 @@
     background-size: cover;
     height: 100vh;
 }
+
+body {
+    margin-top: 9vh;
+}

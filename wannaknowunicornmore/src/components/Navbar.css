@@ -4,28 +4,33 @@ body {
 }
 
 ul {
-    padding: 1em;
+    padding: 0.5em;
+    height: 9vh;
 }
 
-a li {
+button li {
     font-size: 32px;
     letter-spacing: 0.1em;
     color:rgb(58, 170, 92);
     text-shadow:  2px 2px rgb(74, 247, 109);
     opacity: 1;
 }
-a li:hover {
-    transition: 1s  ;
-    opacity: 0.5;
-}
 
 .unicorn-circle{
-        height: 150px;
-        width: 150px;
-        background-color: rgb(255, 170, 244);
-        border-radius: 50%;
-        display: inline-block;
-        position: absolute;
-        margin-left: -70px;
-        opacity: 1 !important; 
+    height: 200px;
+    width: 200px;
+    background-color: #fab4d2;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 650px;
+    top: 1vh;
+}
+
+img.unicorn-circle {
+    transition: 0.5s all ease-in-out;
+}
+
+img.unicorn-circle:hover {
+    transform: scale(1.2);
 }
