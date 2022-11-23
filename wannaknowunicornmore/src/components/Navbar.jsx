@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar()  {
     return (
-        <div className ="shadow-md w-full fixed top-0 left-0 bg-emerald-200">
+        <div className ="shadow-md w-full top-0 left-0 bg-emerald-200">
             <div className="">
                 <ul className="flex flex-row justify-around mx-5 items-center">
                     <button className="transition ease-in-out delay-150 hover:scale-110 duration-300"  href=""><li>HOME</li></button>

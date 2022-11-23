@@ -1,15 +1,17 @@
 import React from "react";
 import "./Home.css"
+import midcloud from '../images/midcloud.png'
+import leftcloud from '../images/leftcloud.png'
+import rightcloud from '../images/rightcloud.png'
 
 function Home() {
   return (
-    <div className="Page1">
-      <div class="home-bg">
-        <div className="content1">
-          <p>castle</p>
-        </div>
-        <div className="content2">
-          <p>unicorn</p>
+    <div className="Unicorn">
+      <div className="home-bg">
+        <div className="cloud">
+          <img className="mid-cloud" src={midcloud}></img>
+          <img className="left-cloud" src={leftcloud}></img>
+          <img className="right-cloud" src={rightcloud}></img>
         </div>
       </div>
     </div>
