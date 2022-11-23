@@ -4,18 +4,17 @@ import "./Navbar.css";
 
 function Navbar()  {
     return (
-        <div class ="shadow-md w-full fixed top-0 left-0 bg-emerald-200">
-            <div class ="">
-                <ul class="flex flex-row justify-between mx-5 items-center">
-                    <a href=""><li>HOME</li></a>
-                    <a href=""><li>HISTORY</li></a>
-                    <a href=""><li><img class="unicorn-circle" src={navunicorn} /></li></a>
-                    <a href=""><li>ABILITY</li></a>
-                    <a href=""><li>MEMBER</li></a>
+        <div className ="shadow-md w-full top-0 left-0 bg-emerald-200">
+            <div className="">
+                <ul className="flex flex-row justify-around mx-5 items-center">
+                    <button className="transition ease-in-out delay-150 hover:scale-110 duration-300"  href=""><li>HOME</li></button>
+                    <button className="transition ease-in-out delay-150 hover:scale-110 duration-300" href=""><li>HISTORY</li></button>
+                    <button ><li><img class="unicorn-circle" src={navunicorn} /></li></button>
+                    <button className="transition ease-in-out delay-150 hover:scale-110 duration-300" href=""><li>ABILITY</li></button>
+                    <button className="transition ease-in-out delay-150 hover:scale-110 duration-300" href=""><li>MEMBER</li></button>
                 </ul>
             </div>
         </div>
-       
     )
 }
 export default Navbar;

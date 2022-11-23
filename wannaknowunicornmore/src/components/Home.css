@@ -1,5 +1,79 @@
 .home-bg {
-    background-image: url(../images/homebg.png);
-    background-size: cover;
-    height: 100vh;
+  background-image: url(../images/homebg.png);
+  background-size: cover;
+  object-fit: cover;
+  height: 150vh;
+  background-repeat: no-repeat;
 }
+
+img.mid-cloud {
+  position: relative;
+  height: 30vh;
+  width: 50vh;
+  left: 335px;
+  top: 102px;
+  border-radius: 0px;
+  z-index: 1;
+  animation: linear infinite;
+  animation-name: cloudMrun;
+  animation-duration: 100s;
+}
+@keyframes cloudMrun {
+  0% {
+    left: 10%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+img.left-cloud {
+  position: relative;
+  height: 114px;
+  width: 221px;
+  left: 1120px;
+  top: 98px;
+  border-radius: 0px;
+  animation: linear infinite;
+  animation-name: cloudLrun;
+  animation-duration: 20s;
+}
+@keyframes cloudLrun {
+    0% {
+        left: 1120px;
+    }
+    50% {
+        right: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+img.right-cloud {
+    position: absolute;
+    width: 289px;
+    height: 113px;
+    left: 746.69px;
+    top: 95.79px;
+    animation: linear infinite;
+    animation-name: cloudRrun;
+    animation-duration: 70s;
+    transform: matrix(-1, -0.01, -0.01, 1, 0, 0);
+}
+@keyframes cloudRrun {
+    0% {
+        left: 0 ;
+    }
+    50% {
+        right: 100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+    

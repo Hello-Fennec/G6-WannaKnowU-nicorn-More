@@ -1,0 +1,97 @@
+/* PAGE1 */
+.page1-bg {
+  background-image: url(../images/bgpage1-2.png);
+  background-size: cover;
+  height: 150vh;
+}
+.unicorn_p1 {
+  margin: 0 auto;
+  padding-top: 46vh;
+}
+
+/* PAGE2 */
+.page2-bg {
+  background-image: url(../images/bgpage1-2.png);
+  background-size: cover;
+  height: 150vh;
+}
+.unicorn_p2 {
+  margin: 0 auto;
+  padding-top: 46vh;
+}
+
+/* PAGE3 */
+.page3-bg {
+  background-image: url(../images/bgpage3.png);
+  background-size: cover;
+  height: 150vh;
+}
+
+.unicorn_p3 {
+  position: absolute;
+  width: 100vh;
+  height: 130vh;
+  margin-left: 30vh;
+}
+
+/* PAGE4 */
+.page4-bg {
+  background-image: url(../images/bgpage4-5.png);
+  background-size: cover;
+  height: 150vh;
+}
+
+.unicorn_p4 {
+  position: absolute;
+  width: 120vh;
+  height: 130vh;
+  margin-left: 60vh;
+  margin-top: 43vh;
+}
+
+.person_p4 {
+  position: absolute;
+  width: 150vh;
+  height: 150vh;
+  margin-top: 10vh;
+  margin-left: -18vh;
+}
+
+/* PAGE5 */
+.page5-bg {
+  background-image: url(../images/bgpage4-5.png);
+  background-size: cover;
+  height: 150vh;
+}
+
+.person_p5 {
+  position: absolute;  
+}
+
+/* PAGE6 */
+.page6-bg {
+  background-image: url(../images/bgpage6.png);
+  background-size: cover;
+  height: 150vh;
+}
+
+/* PAGE7 */
+.page7-bg {
+  background-image: url(../images/bgpage7.png);
+  background-size: cover;
+  height: 150vh;
+}
+
+/* PAGE8 */
+.page8-bg {
+  background-image: url(../images/bgpage8.png);
+  background-size: cover;
+  height: 150vh;
+}
+
+/* MEMBERS */
+.members-bg {
+  background-image: url(../images/bgmembers.png);
+  background-size: cover;
+  height: 150vh;
+}
