@@ -15,8 +15,8 @@ function Home() {
           <img className="left-cloud" src={leftcloud}></img>
           <img className="right-cloud" src={rightcloud}></img>
         </div>
-         <img className="unicorntext" src={unicorntext} />
-         <img className="unicornhome" src={unicornhome} />
+         <img className="unicorntext" src={unicorntext}></img>
+         <img className="unicornhome" src={unicornhome}></img>
       </div>
     </div>
   );

@@ -13,6 +13,8 @@ function Page6() {
         <div className="pic6_2">
           <img className="unicorn2_p6" src={unicorn6_2}></img>
         </div>
+        <p className="text6">ทางซีกโลกตะวันตกยูนิคอร์น เป็นสัตว์ที่มีความดุร้าย และรักความสันโดษ </p>
+        <p className="text6_2">แต่ในประเทศจีนยูนิคอร์นเป็นสัตว์ที่มีความสุภาพ อ่อน โยน และรักสงบ </p>
       </div>
     </div>
   );
