@@ -2,6 +2,8 @@
 body {
   font-family: 'Noto Sans Thai', sans-serif;
   font-size: 32px;
+  color: #fd046c;
+  text-shadow: 2px 2px 5px #ff79e2;
 }
 
 /* PAGE1 */
@@ -10,14 +12,26 @@ body {
   background-size: cover;
   height: 100vh;
   z-index: -1;
+  background-attachment: fixed;
 }
 
 .pic1 {
   position: relative;
-  top: 33vh;
+  top: 31vh;
   z-index: 1;
-  transition: opacity 2s ease-in-out;
   padding: 10px;
+  transition: 1s;
+}
+a img.top{
+  animation-name: fadeIn;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
 
 .unicorn_p1 {
@@ -28,14 +42,11 @@ body {
   opacity: 1;
 }
 
-.pic1 img.top:hover {
-  transition: 5s;
-  opacity: 0;
-}
+
 
 .pic1_2 {
   position: relative;
-  top: -62vh;
+  top: -61vh;
   z-index: 0;
   transition: opacity 2s ease-in-out;
 }
@@ -49,21 +60,22 @@ body {
 }
 .text1 {
   position: relative;
-  bottom: 155vh;
+  bottom: 65vh;
   left : 76vh;
   z-index: 1;
-  
 }
+
 /* PAGE2 */
 .page2-bg {
   background-image: url(../images/bgpage1-2.jpg);
   background-size: cover;
   height: 100vh;
   z-index: -1;
+  background-attachment: fixed;
 }
 .pic2 {
   position: relative;
-  top: 33vh;
+  top: 32vh;
   z-index: 0;
 }
 
@@ -74,6 +86,7 @@ body {
   border-radius: 0px;
   opacity: 1;
 }
+
 .text2 {
   position: relative;
   bottom: 64vh;
@@ -96,6 +109,13 @@ body {
 .unicorn_p3 {
   width: 100vh;
   height: 100vh;
+}
+.text3{
+  position: relative;
+  bottom: 67vh;
+  left : 125vh;
+  z-index: 1;
+  font-size: 25px;
 }
 
 /* PAGE4 */
@@ -125,6 +145,14 @@ body {
 .person_p4 {
   height: 100vh;
 }
+.text4{
+  position: relative;
+  bottom: 166vh;
+  left : 125vh;
+  z-index: 1;
+  font-size: 25px;
+}
+
 
 /* PAGE5 */
 .page5-bg {
@@ -153,12 +181,20 @@ body {
 .person_p5 {
   height: 114vh;
 }
+.text5{
+  position: relative;
+  bottom: 195vh;
+  left : 115vh;
+  z-index: 1;
+  font-size: 25px;
+}
 
 /* PAGE6 */
 .page6-bg {
   background-image: url(../images/bgpage6.jpg);
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 
 .pic6 {
@@ -167,14 +203,28 @@ body {
   left: 8vw;
 }
 
+.unicorn1_p6 {
+  height: 800px;
+}
+.text6{
+  position: relative;
+  bottom: 150vh;
+  left : 9vh;
+  z-index: 1;
+  font-size: 25px;
+}
+.text6_2{
+  position: relative;
+  bottom: 154vh;
+  left : 120vh;
+  z-index: 1;
+  font-size: 25px;
+}
+
 .pic6_2 {
   position: relative;
   top: -72vh;
   left: 60vw;
-}
-
-.unicorn1_p6 {
-  height: 800px;
 }
 
 .unicorn2_p6 {
@@ -188,6 +238,63 @@ body {
   height: 100vh;
 }
 
+.pic7 {
+  position: relative;
+  bottom: 10vh;
+  left: 10vw;
+}
+
+.star-cloud {
+  height: 60vh;
+  width: 60vh;
+}
+
+.pic7_2 {
+  position: relative;
+  bottom: 53vh;
+  left: 10vw;
+}
+
+.unicorn1_p7{
+  height: 60vh;
+  width: 45vh;
+}
+
+.pic7_3 {
+  position: relative;
+  bottom: 100vh;
+  left: 62vw;
+}
+
+.unicorn2_p7{
+  height: 70vh;
+  width: 50vh;
+}
+
+.pic7_4 {
+  position: relative;
+  bottom: 173vh;
+  left: 50vw;
+}
+
+.person_p7{
+  height: 65vh;
+  width: 50vh;
+}
+.text7{
+  position: relative;
+  bottom: 33vh;
+  left : 115vh;
+  z-index: 1;
+  font-size: 25px;
+}
+.text7_2{
+  position: relative;
+  bottom: 47vh;
+  left : 25vh;
+  z-index: 1;
+  font-size: 25px;
+}
 /* PAGE8 */
 .page8-bg {
   background-image: url(../images/bgpage8.jpg);
@@ -195,6 +302,49 @@ body {
   height: 100vh;
 }
 
+.pic8 {
+  position: relative;
+  bottom: 11vh;
+  left: 17vh;
+}
+
+.unicorn1_p8 {
+  height: 60vh;
+}
+
+.pic8_2 {
+  position: relative;
+  bottom: 62vh;
+  left: 50vh;
+}
+
+.person_p8 {
+  height: 45vh;
+}
+
+.pic8_3 {
+  position: relative;
+  bottom: 87vh;
+  left: 51vw;
+}
+
+.unicorn2_p8 {
+  height: 70vh;
+}
+.text8{
+  position: relative;
+  bottom: 41vh;
+  left : 128vh;
+  z-index: 1;
+  font-size: 25px;
+}
+.text8_2{
+  position: relative;
+  bottom: 38vh;
+  left : 14vh;
+  z-index: 1;
+  font-size: 25px;
+}
 /* MEMBERS */
 .members-bg {
   background-image: url(../images/bgmembers.jpg);

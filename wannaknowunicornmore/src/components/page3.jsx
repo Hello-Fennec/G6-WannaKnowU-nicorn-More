@@ -9,6 +9,8 @@ function Page3() {
         <div className="pic3">
           <img className="unicorn_p3" src={unicorn3}></img>
         </div>
+        <p className="text3">เมื่อโตเต็มที่จะมีสีขาวบริสุทธิ์ สง่างาม <br/>มีเขาเดียวที่กลางหน้าผาก และเขามีลักษณะเป็นเกลียวไปทางซ้าย</p>
+
       </div>
     </div>
   );

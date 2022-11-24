@@ -1,0 +1,17 @@
+.member1,
+.member2,
+.member3,
+.member4,
+.member5,
+.member6 {
+  height: 453px;
+  width: 453px;
+  z-index: 999;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-flow: column;
+  flex-direction: row;
+  justify-content: center;
+}
