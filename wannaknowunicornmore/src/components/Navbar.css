@@ -28,6 +28,7 @@ button li {
 }
 
 img.unicorn-circle {
+  z-index: 999;
   transition: 0.5s all ease-in-out;
 }
 

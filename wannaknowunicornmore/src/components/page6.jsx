@@ -8,8 +8,10 @@ function Page6() {
     <div className="Page6">
       <div className="page6-bg">
         <div className="pic6">
-          <img src={unicorn6_1} class="unicorn1_p6"></img>
-          <img src={unicorn6_2} class="unicorn2_p6"></img>
+          <img className="unicorn1_p6" src={unicorn6_1}></img>
+        </div>
+        <div className="pic6_2">
+          <img className="unicorn2_p6" src={unicorn6_2}></img>
         </div>
       </div>
     </div>

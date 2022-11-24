@@ -1,97 +1,203 @@
-/* PAGE1 */
-.page1-bg {
-  background-image: url(../images/bgpage1-2.png);
-  background-size: cover;
-  height: 150vh;
-}
-.unicorn_p1 {
-  margin: 0 auto;
-  padding-top: 46vh;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+body {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 32px;
 }
 
+/* PAGE1 */
+.page1-bg {
+  background-image: url(../images/bgpage1-2.jpg);
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+}
+
+.pic1 {
+  position: relative;
+  top: 33vh;
+  z-index: 1;
+  transition: opacity 2s ease-in-out;
+  padding: 10px;
+}
+
+.unicorn_p1 {
+  margin: 0 auto;
+  height: 872px;
+  width: 712px;
+  border-radius: 0px;
+  opacity: 1;
+}
+
+.pic1 img.top:hover {
+  transition: 5s;
+  opacity: 0;
+}
+
+.pic1_2 {
+  position: relative;
+  top: -62vh;
+  z-index: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.unicorn_p1_2 {
+  margin: 0 auto;
+  height: 872px;
+  width: 712px;
+  border-radius: 0px;
+  opacity: 1;
+}
+.text1 {
+  position: relative;
+  bottom: 155vh;
+  left : 76vh;
+  z-index: 1;
+  
+}
 /* PAGE2 */
 .page2-bg {
-  background-image: url(../images/bgpage1-2.png);
+  background-image: url(../images/bgpage1-2.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
+  z-index: -1;
 }
+.pic2 {
+  position: relative;
+  top: 33vh;
+  z-index: 0;
+}
+
 .unicorn_p2 {
   margin: 0 auto;
-  padding-top: 46vh;
+  height: 872px;
+  width: 712px;
+  border-radius: 0px;
+  opacity: 1;
+}
+.text2 {
+  position: relative;
+  bottom: 64vh;
+  left : 62vh;
+  z-index: 1;
 }
 
 /* PAGE3 */
 .page3-bg {
-  background-image: url(../images/bgpage3.png);
+  background-image: url(../images/bgpage3.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
+}
+
+.pic3 {
+  position: relative;
+  left: 30vh;
 }
 
 .unicorn_p3 {
-  position: absolute;
   width: 100vh;
-  height: 130vh;
-  margin-left: 30vh;
+  height: 100vh;
 }
 
 /* PAGE4 */
 .page4-bg {
-  background-image: url(../images/bgpage4-5.png);
+  background-image: url(../images/bgpage4-5.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
+}
+
+.pic4 {
+  position: relative;
+  top: 9vh;
+  left: 3.7vw;
 }
 
 .unicorn_p4 {
-  position: absolute;
-  width: 120vh;
-  height: 130vh;
-  margin-left: 60vh;
-  margin-top: 43vh;
+  width: 100vh;
+  height: 100vh;
+}
+
+.pic4_2 {
+  position: relative;
+  bottom: 74vh;
+  left: 26vw;
 }
 
 .person_p4 {
-  position: absolute;
-  width: 150vh;
-  height: 150vh;
-  margin-top: 10vh;
-  margin-left: -18vh;
+  height: 100vh;
 }
 
 /* PAGE5 */
 .page5-bg {
-  background-image: url(../images/bgpage4-5.png);
+  background-image: url(../images/bgpage4-5.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
+}
+
+.pic5 {
+  position: relative;
+  top: 9vh;
+  left: 21vw;
+}
+
+.unicorn_p5 {
+  height: 110vh;
+  width: 40vw;
+}
+
+.pic5_2 {
+  position: relative;
+  bottom: 110vh;
+  left: 8vw;
 }
 
 .person_p5 {
-  position: absolute;  
+  height: 114vh;
 }
 
 /* PAGE6 */
 .page6-bg {
-  background-image: url(../images/bgpage6.png);
+  background-image: url(../images/bgpage6.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
+}
+
+.pic6 {
+  position: relative;
+  top: 14vh;
+  left: 8vw;
+}
+
+.pic6_2 {
+  position: relative;
+  top: -72vh;
+  left: 60vw;
+}
+
+.unicorn1_p6 {
+  height: 800px;
+}
+
+.unicorn2_p6 {
+  height: 800px;
 }
 
 /* PAGE7 */
 .page7-bg {
-  background-image: url(../images/bgpage7.png);
+  background-image: url(../images/bgpage7.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
 }
 
 /* PAGE8 */
 .page8-bg {
-  background-image: url(../images/bgpage8.png);
+  background-image: url(../images/bgpage8.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
 }
 
 /* MEMBERS */
 .members-bg {
-  background-image: url(../images/bgmembers.png);
+  background-image: url(../images/bgmembers.jpg);
   background-size: cover;
-  height: 150vh;
+  height: 100vh;
 }
