@@ -1,9 +1,25 @@
+*{
+  margin : 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  scroll-behavior: smooth;
+}
 .home-bg {
-  background-image: url(../images/homebg.png);
+  background-image: url(../images/homebg.jpg);
   background-size: cover;
-  object-fit: cover;
-  height: 150vh;
+  background-position: center;
+  height: 100vh;
   background-repeat: no-repeat;
+}
+
+div.cloud {
+  overflow: hidden;
+}
+
+img {
+  z-index: -1;
 }
 
 img.mid-cloud {
@@ -40,40 +56,62 @@ img.left-cloud {
   animation: linear infinite;
   animation-name: cloudLrun;
   animation-duration: 20s;
+  z-index: 99;
 }
 @keyframes cloudLrun {
-    0% {
-        left: 1120px;
-    }
-    50% {
-        right: 100%;
-    }
-    100% {
-      left: 0;
-    }
+  0% {
+    left: 1120px;
   }
-  
+  50% {
+    right: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
 img.right-cloud {
-    position: absolute;
-    width: 289px;
-    height: 113px;
-    left: 746.69px;
-    top: 95.79px;
-    animation: linear infinite;
-    animation-name: cloudRrun;
-    animation-duration: 70s;
-    transform: matrix(-1, -0.01, -0.01, 1, 0, 0);
+  position: absolute;
+  margin-top: -10vh;
+  width: 70vh;
+  height: 20vh;
+  left: 746.69px;
+  top: 95.79px;
+  animation: linear infinite;
+  animation-name: cloudRrun;
+  animation-duration: 70s;
+  transform: matrix(-1, -0.01, -0.01, 1, 0, 0);
+  z-index: 0;
 }
 @keyframes cloudRrun {
-    0% {
-        left: 0 ;
-    }
-    50% {
-        right: 100%;
-    }
-    100% {
-      left: 100%;
-    }
+  0% {
+    left: 0;
   }
+  50% {
+    right: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
 
-    
+.unicorntext {
+  position: absolute;
+  height: 400px;
+  width: 1100px;
+  right: 2.5vw;
+  top: 20vh;
+  border-radius: 0px;
+  z-index: 999;
+}
+
+.unicornhome {
+  position: absolute;
+  height: 800px;
+  width: 850px;
+  top : 33vh;
+  left : 35vw;
+  border-radius: 0px;
+  z-index: 999;
+  transform: rotate(7deg);  
+}

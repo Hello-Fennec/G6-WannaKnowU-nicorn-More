@@ -8,8 +8,10 @@ function Page5() {
     <div className="Page5">
       <div className="page5-bg">
         <div className="pic5">
-          <img src={unicorn5} class="unicorn_p5"></img>
-          <img src={person5} class="person_p5"></img>
+          <img className="unicorn_p5" src={unicorn5}></img>
+        </div>
+        <div className="pic5_2">
+          <img className="person_p5" src={person5}></img>
         </div>
       </div>
     </div>

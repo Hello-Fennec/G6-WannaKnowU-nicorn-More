@@ -7,7 +7,7 @@ function Page3() {
     <div className="Page3">
       <div className="page3-bg">
         <div className="pic3">
-          <img src={unicorn3} class="unicorn_p3"></img>
+          <img className="unicorn_p3" src={unicorn3}></img>
         </div>
       </div>
     </div>

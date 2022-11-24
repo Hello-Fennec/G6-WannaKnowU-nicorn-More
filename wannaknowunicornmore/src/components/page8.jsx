@@ -9,11 +9,11 @@ function Page8() {
     <div className="Page8">
       <div className="page8-bg">
         <div className="pic8">
-          <img src={unicorn8_1} class="unicorn1_p8"></img>
-          <img src={person8} class="person_p8"></img>
+          <img className="unicorn1_p8" src={unicorn8_1}></img>
+          <img className="person_p8" src={person8}></img>
         </div>
         <div className="pic8_2">
-          <img src={unicorn8_2} class="unicorn2_p8"></img>
+          <img className="unicorn2_p8" src={unicorn8_2}></img>
         </div>
       </div>
     </div>
