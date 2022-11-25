@@ -381,43 +381,43 @@ a img.top{
 
 div.box1 {
   animation: box-jump;
-  animation-duration: 1s;
-  animation-iteration-count: 4;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
 div.box2 {
   animation: box-jump;
   animation-duration: 1s;
-  animation-iteration-count: 4;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
 div.box3 {
   animation: box-jump;
-  animation-duration: 1s;
-  animation-iteration-count: 4;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
 div.box4 {
   animation: box-jump;
   animation-duration: 1s;
-  animation-iteration-count: 4;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
 div.box5 {
   animation: box-jump;
-  animation-duration: 1s;
-  animation-iteration-count: 4;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
 div.box6 {
   animation: box-jump;
   animation-duration: 1s;
-  animation-iteration-count: 4;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 
