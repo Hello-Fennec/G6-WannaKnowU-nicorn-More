@@ -2,10 +2,10 @@
   margin : 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
-body{
-  scroll-behavior: smooth;
-}
+
 .home-bg {
   background-image: url(../images/homebg.jpg);
   background-size: cover;
@@ -14,12 +14,12 @@ body{
   background-repeat: no-repeat;
 }
 
-div.cloud {
-  overflow: hidden;
-}
-
 img {
   z-index: -1;
+}
+
+div.cloud {
+  overflow-y: hidden;
 }
 
 img.mid-cloud {
@@ -27,12 +27,13 @@ img.mid-cloud {
   height: 30vh;
   width: 50vh;
   left: 335px;
-  top: 102px;
+  top: 2vh;
   border-radius: 0px;
   z-index: 1;
   animation: linear infinite;
   animation-name: cloudMrun;
   animation-duration: 100s;
+  overflow-x: hidden;
 }
 @keyframes cloudMrun {
   0% {
@@ -48,19 +49,19 @@ img.mid-cloud {
 
 img.left-cloud {
   position: relative;
-  height: 114px;
-  width: 221px;
-  left: 1120px;
-  top: 98px;
+  height: 28vh;
+  width: 25vw;
+  bottom: 13vh;
   border-radius: 0px;
   animation: linear infinite;
   animation-name: cloudLrun;
   animation-duration: 20s;
-  z-index: 99;
+  z-index: 1;
+  overflow-x: hidden;
 }
 @keyframes cloudLrun {
   0% {
-    left: 1120px;
+    left: 10%;
   }
   50% {
     right: 100%;
@@ -71,17 +72,16 @@ img.left-cloud {
 }
 
 img.right-cloud {
-  position: absolute;
-  margin-top: -10vh;
-  width: 70vh;
-  height: 20vh;
-  left: 746.69px;
-  top: 95.79px;
+  position: relative;
+  width: 60vh;
+  height: 21vh;
+  bottom: 67vh;
   animation: linear infinite;
   animation-name: cloudRrun;
-  animation-duration: 70s;
+  animation-duration: 20s;
   transform: matrix(-1, -0.01, -0.01, 1, 0, 0);
   z-index: 0;
+  overflow-x: hidden;
 }
 @keyframes cloudRrun {
   0% {

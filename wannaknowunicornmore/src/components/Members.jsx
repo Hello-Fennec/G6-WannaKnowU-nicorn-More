@@ -1,5 +1,5 @@
 import React from "react";
-import "./Members.css";
+import "./page.css";
 import membertext from "../images/membertext.png";
 import member1 from "../images/member1.png";
 import member2 from "../images/member2.png";
