@@ -7,7 +7,7 @@ import person7 from '../images/personpage7.png';
 
 function Page7() {
   return (
-    <div className="Page7">
+    <div className="Page7" id="ABILITY">
       <div className="page7-bg">
         <div className="pic7">
           <img className="star-cloud" src={starcloud}></img>

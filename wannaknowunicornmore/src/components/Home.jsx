@@ -8,7 +8,7 @@ import unicornhome from '../images/unicornhome.png'
 
 function Home() {
   return (
-    <div className="Unicorn">
+    <div className="Unicorn" id="HOME">
       <div className="home-bg">
         <div className="cloud">
           <img className="mid-cloud" src={midcloud}></img>

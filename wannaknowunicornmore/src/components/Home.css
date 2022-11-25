@@ -1,5 +1,5 @@
-*{
-  margin : 0;
+* {
+  margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -109,9 +109,9 @@ img.right-cloud {
   position: absolute;
   height: 800px;
   width: 850px;
-  top : 33vh;
-  left : 35vw;
+  top: 33vh;
+  left: 35vw;
   border-radius: 0px;
   z-index: 999;
-  transform: rotate(7deg);  
+  transform: rotate(7deg);
 }
