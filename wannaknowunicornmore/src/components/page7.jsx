@@ -7,7 +7,7 @@ import person7 from '../images/personpage7.png';
 
 function Page7() {
   return (
-    <div className="Page7">
+    <div className="Page7" id="ABILITY">
       <div className="page7-bg">
         <div className="pic7">
           <img className="star-cloud" src={starcloud}></img>
@@ -17,7 +17,6 @@ function Page7() {
           <img className="unicorn1_p7" src={unicorn7_1}></img>
         </div>
         <p className="text7_2">หากตัวที่มีอายุ มากและฉลาดจะสามารถสื่อสารทางจิตได้ <br/>ทั้งยังสามารถอ่านใจและความรู้สึก ของมนุษย์ที่มันอยากจะรู้ได้<br/> ส่วนยูนิคอร์นที่ยังไม่โตเต็มที่ จะสามารถรับได้<br/> เพียงความรู้สึก และอารมณ์ของคนที่อยู่รอบตัวมัน</p>
-
         <div className="pic7_3">  
           <img className="unicorn2_p7" src={unicorn7_2}></img>
         </div>

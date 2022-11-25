@@ -12,7 +12,6 @@ function Page8() {
           <img className="unicorn1_p8" src={unicorn8_1}></img>
         </div>
         <p className="text8">ที่เขาของมันมีพลังวิเศษ ช่วยรักษาคนเจ็บได้</p>
-
         <div className="pic8_2">
           <img className="person_p8" src={person8}></img>
         </div>

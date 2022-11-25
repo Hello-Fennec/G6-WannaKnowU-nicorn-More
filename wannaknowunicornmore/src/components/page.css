@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap");
 body {
-  font-family: 'Noto Sans Thai', sans-serif;
+  font-family: "Noto Sans Thai", sans-serif;
   font-size: 2em;
   color: #fd046c;
   text-shadow: 2px 2px 5px #ff79e2;
@@ -23,14 +23,14 @@ body {
   padding: 10px;
   transition: 1s;
 }
-a img.top{
+a img.top {
   animation-name: fadeIn;
 }
-@keyframes fadeIn{
-  0%{
+@keyframes fadeIn {
+  0% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
   }
 }
@@ -42,9 +42,6 @@ a img.top{
   border-radius: 0px;
   opacity: 1;
 }
-
-
-
 .pic1_2 {
   position: relative;
   top: -61vh;
@@ -62,7 +59,7 @@ a img.top{
 .text1 {
   position: relative;
   bottom: 65vh;
-  left : 76vh;
+  left: 76vh;
   z-index: 1;
 }
 
@@ -92,7 +89,7 @@ a img.top{
 .text2 {
   position: relative;
   bottom: 64vh;
-  left : 62vh;
+  left: 62vh;
   z-index: 1;
 }
 
@@ -113,10 +110,10 @@ a img.top{
   width: 100vh;
   height: 100vh;
 }
-.text3{
+.text3 {
   position: relative;
   bottom: 67vh;
-  left : 125vh;
+  left: 125vh;
   z-index: 1;
   font-size: 0.8em;
 }
@@ -149,14 +146,13 @@ a img.top{
 .person_p4 {
   height: 100vh;
 }
-.text4{
+.text4 {
   position: relative;
   bottom: 166vh;
-  left : 125vh;
+  left: 125vh;
   z-index: 1;
   font-size: 0.8em;
 }
-
 
 /* PAGE5 */
 .page5-bg {
@@ -186,10 +182,10 @@ a img.top{
 .person_p5 {
   height: 114vh;
 }
-.text5{
+.text5 {
   position: relative;
   bottom: 195vh;
-  left : 115vh;
+  left: 115vh;
   z-index: 1;
   font-size: 0.8em;
 }
@@ -211,18 +207,25 @@ a img.top{
 
 .unicorn1_p6 {
   height: 800px;
+  opacity: 0;
+  transition: 2s;
 }
-.text6{
+.unicorn1_p6:hover {
+  transition: 2 s;
+  opacity: 1;
+}
+
+.text6 {
   position: relative;
   bottom: 150vh;
-  left : 9vh;
+  left: 9vh;
   z-index: 1;
   font-size: 0.75em;
 }
-.text6_2{
+.text6_2 {
   position: relative;
   bottom: 154vh;
-  left : 120vh;
+  left: 120vh;
   z-index: 1;
   font-size: 0.75em;
 }
@@ -235,6 +238,12 @@ a img.top{
 
 .unicorn2_p6 {
   height: 800px;
+  opacity: 0;
+  transition: 2s;
+}
+.unicorn2_p6:hover {
+  transition: 2 s;
+  opacity: 1;
 }
 
 /* PAGE7 */
@@ -254,6 +263,9 @@ a img.top{
 .star-cloud {
   height: 60vh;
   width: 60vh;
+  animation-name: left_right;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .pic7_2 {
@@ -262,7 +274,7 @@ a img.top{
   left: 10vw;
 }
 
-.unicorn1_p7{
+.unicorn1_p7 {
   height: 60vh;
   width: 45vh;
 }
@@ -273,7 +285,7 @@ a img.top{
   left: 62vw;
 }
 
-.unicorn2_p7{
+.unicorn2_p7 {
   height: 70vh;
   width: 50vh;
 }
@@ -284,21 +296,21 @@ a img.top{
   left: 50vw;
 }
 
-.person_p7{
+.person_p7 {
   height: 65vh;
   width: 50vh;
 }
-.text7{
+.text7 {
   position: relative;
   bottom: 33vh;
-  left : 115vh;
+  left: 115vh;
   z-index: 1;
   font-size: 0.8em;
 }
-.text7_2{
+.text7_2 {
   position: relative;
   bottom: 47vh;
-  left : 25vh;
+  left: 25vh;
   z-index: 1;
   font-size: 25px;
 }
@@ -339,17 +351,17 @@ a img.top{
 .unicorn2_p8 {
   height: 70vh;
 }
-.text8{
+.text8 {
   position: relative;
   bottom: 41vh;
-  left : 128vh;
+  left: 128vh;
   z-index: 1;
   font-size: 0.8em;
 }
-.text8_2{
+.text8_2 {
   position: relative;
   bottom: 38vh;
-  left : 14vh;
+  left: 14vh;
   z-index: 1;
   font-size: 0.75em;
 }
@@ -371,9 +383,66 @@ a img.top{
   z-index: 999;
 }
 
-.flexcontainer {
+.flex-container {
   display: flex;
   flex-flow: column;
   flex-direction: row;
   justify-content: center;
+  padding-top: 10vh;
+}
+
+div.box1 {
+  animation: box-jump;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+div.box2 {
+  animation: box-jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+div.box3 {
+  animation: box-jump;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+div.box4 {
+  animation: box-jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+div.box5 {
+  animation: box-jump;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+div.box6 {
+  animation: box-jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes box-jump {
+  0% {
+    transform: translateY(0%);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-40%);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
