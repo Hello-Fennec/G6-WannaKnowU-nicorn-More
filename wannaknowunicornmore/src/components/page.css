@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
 body {
   font-family: 'Noto Sans Thai', sans-serif;
-  font-size: 32px;
+  font-size: 2em;
   color: #fd046c;
   text-shadow: 2px 2px 5px #ff79e2;
 }
@@ -13,6 +13,7 @@ body {
   height: 100vh;
   z-index: -1;
   background-attachment: fixed;
+  overflow-y: hidden;
 }
 
 .pic1 {
@@ -72,6 +73,7 @@ a img.top{
   height: 100vh;
   z-index: -1;
   background-attachment: fixed;
+  overflow-y: hidden;
 }
 .pic2 {
   position: relative;
@@ -99,6 +101,7 @@ a img.top{
   background-image: url(../images/bgpage3.jpg);
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .pic3 {
@@ -115,7 +118,7 @@ a img.top{
   bottom: 67vh;
   left : 125vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.8em;
 }
 
 /* PAGE4 */
@@ -123,6 +126,7 @@ a img.top{
   background-image: url(../images/bgpage4-5.jpg);
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .pic4 {
@@ -150,7 +154,7 @@ a img.top{
   bottom: 166vh;
   left : 125vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.8em;
 }
 
 
@@ -159,6 +163,7 @@ a img.top{
   background-image: url(../images/bgpage4-5.jpg);
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .pic5 {
@@ -186,7 +191,7 @@ a img.top{
   bottom: 195vh;
   left : 115vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.8em;
 }
 
 /* PAGE6 */
@@ -195,6 +200,7 @@ a img.top{
   background-size: cover;
   height: 100vh;
   position: relative;
+  overflow-y: hidden;
 }
 
 .pic6 {
@@ -211,14 +217,14 @@ a img.top{
   bottom: 150vh;
   left : 9vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.75em;
 }
 .text6_2{
   position: relative;
   bottom: 154vh;
   left : 120vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.75em;
 }
 
 .pic6_2 {
@@ -236,6 +242,7 @@ a img.top{
   background-image: url(../images/bgpage7.jpg);
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .pic7 {
@@ -286,7 +293,7 @@ a img.top{
   bottom: 33vh;
   left : 115vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.8em;
 }
 .text7_2{
   position: relative;
@@ -300,6 +307,7 @@ a img.top{
   background-image: url(../images/bgpage8.jpg);
   background-size: cover;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .pic8 {
@@ -336,18 +344,36 @@ a img.top{
   bottom: 41vh;
   left : 128vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.8em;
 }
 .text8_2{
   position: relative;
   bottom: 38vh;
   left : 14vh;
   z-index: 1;
-  font-size: 25px;
+  font-size: 0.75em;
 }
 /* MEMBERS */
 .members-bg {
   background-image: url(../images/bgmembers.jpg);
   background-size: cover;
   height: 100vh;
+}
+
+.member1,
+.member2,
+.member3,
+.member4,
+.member5,
+.member6 {
+  height: 354px;
+  width: 251px;
+  z-index: 999;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-flow: column;
+  flex-direction: row;
+  justify-content: center;
 }
